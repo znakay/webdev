@@ -1,0 +1,26 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Landing page WebDev</h1>\r <h2 align=\"center\"><a href=\"/\">Demo</a></h2>\r <img src=\"./webdev.jpg\" width=\"80%\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch scss/index.scss css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znakay/webdev.git"
+  },
+  "author": "Andrey Znak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/znakay/webdev/issues"
+  },
+  "homepage": "https://github.com/znakay/webdev#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "sass": "^1.32.6"
+  }
+}
