@@ -1,0 +1,24 @@
+.wrapper-rappresent {
+    padding: 120px 269px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rappresent__text {
+    max-width: 407px;
+    width: 100%;
+}
+
+.rappresent__title {
+    margin-bottom: 20px;
+    font: 700 24px/28.13px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: $color-title;
+}
+
+.rappresent__description {
+    margin-bottom: 30px;
+    font: 500 14px/19.6px "Roboto", sans-serif;
+    color: $color-text;
+}
