@@ -1,3 +1,4 @@
+@import '../../../node_modules/swiper/swiper-bundle.css';
 .navigation__item a.navigation__link, .ico, .button {
   transition: all 0.3s ease-out;
 }
@@ -484,6 +485,70 @@ template {
 
 .rappresent__description {
   margin-bottom: 30px;
+  font: 500 14px/19.6px "Roboto", sans-serif;
+  color: #4E4E4E;
+}
+
+.community {
+  background-color: #F5F6F7;
+}
+
+.community-wrapper {
+  padding: 82px 0 140px 269px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.community__contant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.community__title {
+  margin: 20px 0 10px;
+  font: 500 16px/20px "Roboto", sans-serif;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.community__description {
+  margin: 0;
+  max-width: 298px;
+  width: 100%;
+  text-align: center;
+  font: 400 14px/19.6px "Roboto", sans-serif;
+  color: #4E4E4E;
+}
+
+.swiper-container {
+  width: 894px;
+  height: 244px;
+}
+
+.implement-wrapper {
+  padding: 120px 378px 140px 269px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.implement__title {
+  margin-bottom: 30px;
+  font: 700 24px/28.13px "Roboto", sans-serif;
+  color: #373737;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.implement__description {
+  margin-bottom: 30px;
+  max-width: 407px;
+  max-height: 60px;
+  width: 100%;
+  height: 100%;
   font: 500 14px/19.6px "Roboto", sans-serif;
   color: #4E4E4E;
 }
