@@ -6,4 +6,9 @@
     font: 700 14px/16.41px "Roboto", sans-serif;
     text-transform: uppercase;
     color: $color-light;
+    @extend %transition;
+    &:hover {
+        background-color: $color-button-dark;
+        cursor: pointer;
+    }
 }

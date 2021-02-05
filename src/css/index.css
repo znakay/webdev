@@ -1,4 +1,4 @@
-.navigation__item a.navigation__link, .ico {
+.navigation__item a.navigation__link, .ico, .button {
   transition: all 0.3s ease-out;
 }
 
@@ -18,6 +18,10 @@
   font: 700 14px/16.41px "Roboto", sans-serif;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.button:hover {
+  background-color: #009CC2;
+  cursor: pointer;
 }
 
 .ico {
