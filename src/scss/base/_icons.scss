@@ -1,0 +1,35 @@
+.ico {
+    display: block;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @extend %transition;
+    &:hover {
+        filter: invert(0) sepia(1) saturate(20) hue-rotate(140.4deg) brightness(1.2);
+        cursor: pointer;
+    }
+}
+
+.ico-env {
+    background-image: url("../assets/icons/envelope.svg");
+    width: 20px;
+    height: 20px;
+}
+
+.ico-fb {
+    background-image: url("../assets/icons/facebook_fff.svg");
+    width: 20px;
+    height: 20px;
+}
+
+.ico-inst {
+    background-image: url("../assets/icons/insta_fff.svg");
+    width: 20px;
+    height: 20px;
+}
+
+.ico-yt {
+    background-image: url("../assets/icons/telegram_fff.svg");
+    width: 20px;
+    height: 20px;
+}

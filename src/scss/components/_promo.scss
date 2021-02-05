@@ -32,5 +32,17 @@
 }
 
 .promo__button {
-    margin-bottom: 293px;
+    margin-bottom: 183px;
+}
+
+.icons-bar {
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 170px;
+    width: 100%;
+}
+
+.icons-bar a {
+    color: #fff;
 }
