@@ -1,0 +1,46 @@
+.footer {
+    padding: 60px 160px 80px;
+    background-color: $color-dark;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__list > ul {
+    display: flex;
+}
+
+.footer__item {
+    display: block;
+    font: 400 14px/19.6px "Roboto", sans-serif;
+    color: $color-light;
+    @extend %transition;
+    &:not(:first-child) {
+        position: relative;
+        padding-left: 40px;
+        &::before {
+            position: absolute;
+            content: url("../assets/img/mnu-items-divider.png");
+            left: 20px;
+            width: 1px;
+            height: 8px;
+        }
+    }
+    &:hover {
+        color: $color-buttons;
+        cursor: pointer;
+    }
+}
+
+.footer__logo {
+    position: relative;
+    right: 50px;
+}
+
+.copyright {
+    font: 400 14px/19.6px "Roboto", sans-serif;
+    color: $color-copyright;
+}

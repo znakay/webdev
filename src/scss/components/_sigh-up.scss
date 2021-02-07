@@ -1,0 +1,45 @@
+.sigh-up {
+    max-height: 524px;
+    height: 100%;
+    background-image: url("../assets/img/sign-up.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sigh-up-wrapper {
+    padding: 200px 593px 220px;
+}
+
+.sign-up__title {
+    margin: 0 0 30px;
+    font: 700 24px/28.13px "Roboto", sans-serif;
+    color: $color-light;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sign-up__form {
+    display: flex;
+    justify-content: center;
+    
+    max-height: 46px;
+    width: 100%;
+    height: 100%;
+}
+
+.sign-up__form input {
+    display: inline-flex;
+    padding: 13px 24px;
+    width: 340px;
+    border: none;
+    &::placeholder {
+        font: 400 14px/19.6px "Roboto", sans-serif;
+        color: $color-title;
+    }
+}
+
+.sign-up__form button {
+    display: block;
+    width: 66px;
+}

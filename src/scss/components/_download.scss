@@ -1,0 +1,35 @@
+.download {
+    background-color: $color-background-section;
+}
+
+.download-wrapper {
+    padding: 120px 560px 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.download__title {
+    margin-bottom: 20px;
+    font: 700 24px/28.13px "Roboto", sans-serif;
+    color: $color-title;
+    text-transform: uppercase;
+}
+
+.download__description {
+    margin-bottom: 30px;
+    max-width: 480px;
+    max-height: 40px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font: 400 14px/19.6px "Roboto", sans-serif;
+    color: $color-text;
+}
+
+.download__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+}

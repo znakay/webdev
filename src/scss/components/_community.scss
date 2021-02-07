@@ -1,0 +1,33 @@
+.community {
+    background-color: $color-background-section;
+}
+
+.community-wrapper {
+    padding: 82px 0 140px 269px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community__contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community__title {
+    margin: 20px 0 10px;
+    font: 500 16px/20px "Roboto", sans-serif;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: $color-title;
+}
+
+.community__description {
+    margin: 0;
+    max-width: 298px;
+    width: 100%;
+    text-align: center;
+    font: 400 14px/19.6px "Roboto", sans-serif;
+    color: $color-text;
+}
