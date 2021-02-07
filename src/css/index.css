@@ -1,5 +1,5 @@
 @import '../../../node_modules/swiper/swiper-bundle.css';
-.navigation__item a.navigation__link, .ico, .button {
+.footer__item, .navigation__item a.navigation__link, .ico, .button {
   transition: all 0.3s ease-out;
 }
 
@@ -677,6 +677,52 @@ template {
 .wrapper {
   margin: 0 auto;
   max-width: 1600px;
+}
+
+.footer {
+  padding: 60px 160px 80px;
+  background-color: #000000;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__list > ul {
+  display: flex;
+}
+
+.footer__item {
+  display: block;
+  font: 400 14px/19.6px "Roboto", sans-serif;
+  color: #FFFFFF;
+}
+.footer__item:not(:first-child) {
+  position: relative;
+  padding-left: 40px;
+}
+.footer__item:not(:first-child)::before {
+  position: absolute;
+  content: url("../assets/img/mnu-items-divider.png");
+  left: 20px;
+  width: 1px;
+  height: 8px;
+}
+.footer__item:hover {
+  color: #00AFDB;
+  cursor: pointer;
+}
+
+.footer__logo {
+  position: relative;
+  right: 50px;
+}
+
+.copyright {
+  font: 400 14px/19.6px "Roboto", sans-serif;
+  color: #818181;
 }
 
 /*# sourceMappingURL=index.css.map */
