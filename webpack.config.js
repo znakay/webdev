@@ -3,7 +3,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtcractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-// const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const isDeveloypment = process.env.NODE_ENV === 'development';
 
@@ -41,14 +41,14 @@ module.exports = {
     new MiniCssExtcractPlugin({
       filename: filename('css'),
     }),
-    // new CopyWebpackPlugin({
-    //   patterns: [
-    //     {
-    //       from: path.resolve(__dirname, 'src/favicon.png'),
-    //       to: path.resolve(__dirname, 'dist'),
-    //     },
-    //   ],
-    // }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, 'src/favicon.png'),
+          to: path.resolve(__dirname, 'dist'),
+        },
+      ],
+    }),
   ],
   module: {
     rules: [
